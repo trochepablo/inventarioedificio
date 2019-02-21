@@ -29,5 +29,7 @@ namespace InventarioEdificio.Models
         {
             return new ApplicationDbContext();
         }
+
+        public System.Data.Entity.DbSet<InventarioEdificio.Models.Edificio> Edificios { get; set; }
     }
 }
